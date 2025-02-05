@@ -9,14 +9,7 @@ The Speaker Recognition System uses advanced machine learning techniques for spe
 ## 🚀 Features
 
 - **Voice Registration**: Users can register their voice for identification.
-- **Feature Extraction**: Extracts Mel Frequency Cepstral Coefficients (MFCCs), chroma features, and spectral properties from audio.
-- **Machine Learning Models**:
-  - Support Vector Machines (SVM)
-  - Random Forest Classifier
-  - K-Nearest Neighbors (KNN)
-  - Voting-based Ensemble for Final Prediction (Ensemble Learning)
 - **Real-Time Recognition**: Identifies users based on their voice input without storing raw audio files.
-- **Scalability**: Stores extracted MFCC features efficiently in Firebase Firestore.
 
 ---
 
@@ -90,7 +83,7 @@ The Speaker Recognition System uses advanced machine learning techniques for spe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/speaker-recognition-system.git
+   git clone https://github.com/PrajwalChander/Speaker-Recognition
    ```
 2. Install backend dependencies:
    ```bash
