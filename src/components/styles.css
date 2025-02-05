@@ -1,0 +1,93 @@
+/* General container styling */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Left Section */
+.left-section {
+  flex: 1;
+  text-align: center;
+}
+
+.left-section h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+}
+
+input[disabled] {
+  background: #e0e0e0;
+  cursor: not-allowed;
+}
+
+/* Mode Toggle Buttons */
+.mode-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.mode-toggle button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background: #ddd;
+}
+
+.mode-toggle button.active {
+  background: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.mode-toggle button:hover {
+  background: #ccc;
+}
+
+/* Mic Button */
+.mic-button {
+  background: #ff5a5f;
+  color: white;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mic-button:hover {
+  background: #e0474e;
+}
+
+/* Right Section */
+.right-section {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
